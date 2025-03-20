@@ -1,0 +1,296 @@
+{
+   "timestamp":"2025-03-18T17:59:35.950Z",
+   "headers":[
+      "fip_id",
+      "notification_event_name",
+      "latency_avg_ms",
+      "success_response_percent",
+      "failure_response_percent",
+      "no_response_percent",
+      "latencyP99_ms",
+      "latencyP95_ms",
+      "latencyP50_ms"
+   ],
+   "events":[
+      [
+         "AUBank-FIP",
+         "FIP:AA:FINotificationResponse",
+         752.66,
+         100,
+         0,
+         ,
+         ,
+         
+      ],
+      [
+         "AXIS001",
+         "FIP:AA:FINotificationResponse",
+         15693.31,
+         90.91,
+         9.09,
+         ,
+         ,
+         
+      ],
+      [
+         "BARBFIP",
+         "FIP:AA:FINotificationResponse",
+         5072.24,
+         100,
+         0,
+         ,
+         ,
+         
+      ],
+      [
+         "BOI-FIP",
+         "FIP:AA:FINotificationResponse",
+         6182.12,
+         100,
+         0,
+         ,
+         ,
+         
+      ],
+      [
+         "BOM_FIP",
+         "FIP:AA:FINotificationResponse",
+         4192.72,
+         100,
+         0,
+         ,
+         ,
+         
+      ],
+      [
+         "CAMSRTAFIP",
+         "FIP:AA:FINotificationResponse",
+         13083.35,
+         75.86,
+         24.14,
+         ,
+         ,
+         
+      ],
+      [
+         "CDSLFIP",
+         "FIP:AA:FINotificationResponse",
+         1687.54,
+         88.95,
+         11.05,
+         ,
+         ,
+         
+      ],
+      [
+         "CENTRALFIP",
+         "FIP:AA:FINotificationResponse",
+         4071.71,
+         100,
+         0,
+         ,
+         ,
+         
+      ],
+      [
+         "CUBFIP",
+         "FIP:AA:FINotificationResponse",
+         37031.80,
+         100,
+         0,
+         ,
+         ,
+         
+      ],
+      [
+         "FDRLFIPPROD",
+         "FIP:AA:FINotificationResponse",
+         2180.45,
+         100,
+         0,
+         ,
+         ,
+         
+      ],
+      [
+         "HDFC-FIP",
+         "FIP:AA:FINotificationResponse",
+         2832.21,
+         89.29,
+         10.71,
+         ,
+         ,
+         
+      ],
+      [
+         "IBFIP",
+         "FIP:AA:FINotificationResponse",
+         4084.91,
+         100,
+         0,
+         ,
+         ,
+         
+      ],
+      [
+         "ICICI-FIP",
+         "FIP:AA:FINotificationResponse",
+         3022.52,
+         98.15,
+         1.85,
+         ,
+         ,
+         
+      ],
+      [
+         "IDFCFirstBank-FIP",
+         "FIP:AA:FINotificationResponse",
+         7663.51,
+         100,
+         0,
+         ,
+         ,
+         
+      ],
+      [
+         "IOB-FIP",
+         "FIP:AA:FINotificationResponse",
+         43446.44,
+         100,
+         0,
+         ,
+         ,
+         
+      ],
+      [
+         "KBL-FIP",
+         "FIP:AA:FINotificationResponse",
+         3930.17,
+         100,
+         0,
+         ,
+         ,
+         
+      ],
+      [
+         "KotakMahindraBank-FIP",
+         "FIP:AA:FINotificationResponse",
+         22904,
+         71.43,
+         28.57,
+         ,
+         ,
+         
+      ],
+      [
+         "MGBFIP",
+         "FIP:AA:FINotificationResponse",
+         9075.82,
+         100,
+         0,
+         ,
+         ,
+         
+      ],
+      [
+         "PNB-FIP",
+         "FIP:AA:FINotificationResponse",
+         2764.14,
+         100,
+         0,
+         ,
+         ,
+         
+      ],
+      [
+         "UBI-FIP",
+         "FIP:AA:FINotificationResponse",
+         5918.08,
+         100,
+         0,
+         ,
+         ,
+         
+      ],
+      [
+         "UCOB-FIP",
+         "FIP:AA:FINotificationResponse",
+         4345.79,
+         100,
+         0,
+         ,
+         ,
+         
+      ],
+      [
+         "YESB-FIP",
+         "FIP:AA:FINotificationResponse",
+         1864.51,
+         100,
+         0,
+         ,
+         ,
+         
+      ],
+      [
+         "fip@nsdl",
+         "FIP:AA:FINotificationResponse",
+         1319.89,
+         96.43,
+         3.57,
+         ,
+         ,
+         
+      ],
+      [
+         "fiplive@canarabank",
+         "FIP:AA:FINotificationResponse",
+         2070.74,
+         96.67,
+         3.33,
+         ,
+         ,
+         
+      ],
+      [
+         "fiplive@fincarebank",
+         "FIP:AA:FINotificationResponse",
+         653.32,
+         100,
+         0,
+         ,
+         ,
+         
+      ],
+      [
+         "fiplive@indusind",
+         "FIP:AA:FINotificationResponse",
+         2431.69,
+         100,
+         0,
+         ,
+         ,
+         
+      ],
+      [
+         "kfinmf-fip",
+         "FIP:AA:FINotificationResponse",
+         13567.25,
+         100,
+         0,
+         ,
+         ,
+         
+      ],
+      [
+         "sbi-fip",
+         "FIP:AA:FINotificationResponse",
+         825.34,
+         54.17,
+         45.83,
+         ,
+         ,
+         
+      ]
+   ]
+}
