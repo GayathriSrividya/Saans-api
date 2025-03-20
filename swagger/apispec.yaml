@@ -1,0 +1,95 @@
+openapi: 3.0.0
+info:
+  title: Saans API
+  description: API for OpenTelemetry generation
+  version: '1.0'
+servers:
+  - url: http://localhost:3000
+    description: Local Development
+paths:
+  /api/generate:
+    post:
+      summary: Generate OpenTelemetry
+      tags:
+        - OpenTelemetry
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  id:
+                    type: string
+                    example: api.otel.generate
+                  ver:
+                    type: string
+                    example: v1
+                  ts:
+                    type: string
+                    example: '1606196636922'
+                  params:
+                    type: object
+                    properties:
+                      resmsgid:
+                        type: string
+                        example: 'null'
+                      msgid:
+                        type: string
+                        format: uuid
+                        example: 'a4b7041c-2d42-43e8-81d2-d3f3b6fbeccf'
+                      err:
+                        type: string
+                        nullable: true
+                      status:
+                        type: string
+                        example: success
+                      errmsg:
+                        type: string
+                        nullable: true
+                  responseCode:
+                    type: string
+                    example: OK
+                  result:
+                    type: object
+                    properties:
+                      response:
+                        type: string
+                        example: SUCCESS
+        '404':
+          description: Route not found
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  id:
+                    type: string
+                    example: api.error
+                  ver:
+                    type: string
+                    example: v1
+                  ts:
+                    type: string
+                  params:
+                    type: object
+                    properties:
+                      resmsgid:
+                        type: string
+                      msgid:
+                        type: string
+                        format: uuid
+                      err:
+                        type: string
+                        example: ROUTE_NOT_FOUND
+                      status:
+                        type: string
+                        example: error
+                      errmsg:
+                        type: string
+                  responseCode:
+                    type: string
+                    example: NOT_FOUND
+                  result:
+                    type: object
